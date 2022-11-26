@@ -4,22 +4,30 @@
 body{
     margin: 0;
     padding: 0;
-    background:#FFE3E1;
+    background:#E8E8E8;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 h1{
+    font-size: 5em;
     font-family: 'Dancing Script', cursive;
     margin-top: 0 ;
+    color: rgb(71, 171, 186);
 }
 p{
-
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
 }
 h2{
     font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    color: rgb(71, 171, 186);
+    line-height: 2;
 }
 h3{
     font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: rgb(71, 171, 186);
 }
 
 .top-container{
@@ -38,15 +46,11 @@ h3{
     left: 300px;
     bottom: 300px;
 }
-.middel-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
-    margin: 0;
-    padding: 0;
-}
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+.box{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    text-align: center;
+    align-items: center;
 }
