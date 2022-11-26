@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background:#FFE3E1;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0 ;
+}
+p{
+
+}
+h2{
+    font-family: 'Comfortaa', cursive;
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+}
+
+.top-container{
+    background:#E8E8E8;
+    position: relative;
+    padding-top:100px ;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.middel-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
